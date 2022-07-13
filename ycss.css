@@ -4,21 +4,21 @@
     --yc-light-smooth-mode-bg--color: #ffffff;
     --yc-dark-smooth-mode-bg-color: #303143;
 }
-body[--yc-theme="light"]{
+body[yc-theme="light"]{
     background-color: var(--yc-light-mode-bg-color);
 }
-body[--yc-theme="dark"]{
-    background-color: var(--yc-dark-mode-bg-color);
+body[yc-theme="dark"]{
+    background-color: var(--yc-dark-mode-bg--color);
 }
-body[--yc-theme="light-smooth"]{
-    background-color: var(--yc-light-smooth-mode-bg-color);
+body[yc-theme="light-smooth"]{
+    background-color: var(--yc-light-smooth-mode-bg--color);
 }
-body[--yc-theme="dark-smooth"]{
+body[yc-theme="dark-smooth"]{
     background-color: var(--yc-dark-smooth-mode-bg-color);
 }
-body[--yc-brightness="light"]{
-    color: dark;
+body[yc-brightness="light"]{
+    color: black;
 }
-body[--yc-brightness="dark"]{
+body[yc-brightness="dark"]{
     color: white;
 }
