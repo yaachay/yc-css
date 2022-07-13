@@ -21,7 +21,6 @@ jobs:
           registry-url: https://registry.npmjs.org
       - name: 🚀Publish YCSS
         run: npm publish --access public
-        working-directory: yccss
         env: 
             NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
 
