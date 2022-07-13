@@ -1,0 +1,11 @@
+{
+  "name": "ycss",
+  "version": "1.0.0",
+  "description": "🚀YCSS Framework is a framework to create more powerful and smooth web designs at a short-time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YaaChay",
+  "license": "MIT"
+}
