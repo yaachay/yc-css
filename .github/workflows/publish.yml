@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - master
-
 jobs:
-  release:
+  # release:
+  publish-npm:
     name: 🚀Publish YCSS
     runs-on: ubuntu-latest
     steps:
@@ -18,9 +18,9 @@ jobs:
         uses: actions/setup-node@v3.4.0
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org
+          registry-url: https://registry.npmjs.org/
       - name: 🚀Publish YCSS
-        run: npm publish --access public
+        run: npm install && npm publish
         working-directory: yc-css
         env: 
             NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
